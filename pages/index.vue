@@ -24,8 +24,29 @@
 </template>
 
 <script>
-
+import axios from "axios"
 export default {
+  async asyncData({store,query}){
+    const res=await axios.get('~assets/testData/test1.json')||'';
+    console.log(res)
+    return {
+      detail:res,
+    }
+  },
+  data(){
+    return{
+
+    }
+  },
+  created(){
+    
+  },
+  mounted(){
+    
+  },
+  methods:{
+
+  },
   components: {
     
   }
