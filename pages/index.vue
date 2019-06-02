@@ -1,12 +1,11 @@
 <template>
   <section class="container">
     <div>
-      <logo />
       <h1 class="title">
         林
       </h1>
       <h2 class="subtitle">
-        My work
+        lin
       </h2>
       <div class="links">
         <a
@@ -25,11 +24,10 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
 
 export default {
   components: {
-    Logo
+    
   }
 }
 </script>
