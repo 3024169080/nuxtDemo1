@@ -3,22 +3,22 @@
     <div>
       <logo />
       <h1 class="title">
-        nuxtDemo1
+        林
       </h1>
       <h2 class="subtitle">
-        My world-class Nuxt.js project
+        My work
       </h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="javascript:;"
           target="_blank"
           class="button--green"
-        >Documentation</a>
+        >进入</a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="javascript:;"
           target="_blank"
           class="button--grey"
-        >GitHub</a>
+        >我的</a>
       </div>
     </div>
   </section>
